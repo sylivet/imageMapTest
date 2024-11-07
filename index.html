@@ -19,17 +19,12 @@
 
 <!-- 引入 jQuery 和 rwdImageMaps 插件 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="jquery.rwdImageMaps.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
 <script>
 
 $(document).ready(function(e) {
 	$('img[usemap]').rwdImageMaps();
-	
-	$('area').on('click', function() {
-		alert($(this).attr('alt') + ' clicked');
-	});
 });
-
 
 </script>
 </body>
